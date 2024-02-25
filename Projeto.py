@@ -18,8 +18,7 @@ def informacoes_gupy():
         complemento += vaga.text + "\n"
     return complemento
 def envia_mensagens():
-    account_sid = 'ACaee3dcc8add495b3acf8a58c42acd77b'
-    auth_token = '9aada82fa86d10e5be2a9fe9d4c5abd2'
+   
     client = Client(account_sid, auth_token)
 
     message = client.messages.create(
